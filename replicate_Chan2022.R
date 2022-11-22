@@ -125,7 +125,7 @@ cat(paste0("Computing impulse responses from a ", n,"-variable VAR"))
 cat("\t to an one-standard deviation financial shock...")
 while(count_sat < nsim){
   # sample nbatch draws from the posterior
-  temp_draw  = sample_ThetaSig(Y, X, plag, prior_redu, deterministics, nbatch) # shouldn't we use prior_stru ??????
+  temp_draw  = sample_ThetaSig(Y, X, plag, prior_redu, deterministics, nbatch)
   store_Alp  = temp_draw$Alp
   store_Beta = temp_draw$Beta
   store_Sig  = temp_draw$Sig
