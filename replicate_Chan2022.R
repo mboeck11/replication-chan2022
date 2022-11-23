@@ -8,7 +8,7 @@
 # Replication of Matlab Codes by J.C.C. Chan by Maximilian Boeck              #
 # 07/11/22                                                                    #
 #-----------------------------------------------------------------------------#
-setwd("/users/mboeck/documents/projects/0 replications/chan (2022) qe")
+setwd("/users/mboeck/dropbox/projects/replications/chan (2022) qe")
 rm(list=ls())
 
 # load packages
